@@ -1,0 +1,26 @@
+<nav class="navbar app-navbar">
+  <div class="container nav-content">
+    <div class="navbar-brand-container">
+      <span class="navbar-brand">D280 Performance Assessment</span>
+    </div>
+    <ul class="nav nav-center">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/map">Map</a>
+      </li>
+    </ul>
+    <form class="d-flex search-container" role="search">
+      <input
+        class="form-control me-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      />
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,53 @@
+.main-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  .header-bar {
+    background-color: #e91e63; 
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #000;
+  }
+ 
+  #map-container {
+    flex: 3;
+    svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  #map-container svg path.active-country {
+    fill: #4caf50; 
+  }
+  
+  .country-properties {
+    flex: 1;
+    background: #fafafa;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  
+  .country-properties table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .country-properties th,
+  .country-properties td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+  }
+  
+  .country-properties th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
